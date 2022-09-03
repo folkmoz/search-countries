@@ -60,7 +60,7 @@ export default function DetailCountry({ detail, borderCountries }) {
                     <div className={"basis-2/5"}>
                         <img
                             className={
-                                "md:max-h-[60vh] md:h-full lg:max-h-[70%] lg:min-h-[370px] h-[300px] w-full object-cover"
+                                "md:h-full lg:min-h-[370px] w-full object-cover"
                             }
                             src={flags.svg}
                             alt={`${name.common}'s flag`}
